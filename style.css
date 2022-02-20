@@ -1,0 +1,155 @@
+.op {
+    border-radius: 50%;
+    
+}
+
+#c4 {
+    font-size: large;
+    
+}
+#container {
+    border-radius: 50%;
+
+    
+}
+
+#pfp {
+    margin-top: 2cm;
+  margin-left: 4cm;  
+  border-radius: 50%;
+  float: left;
+  width: 20%;
+  box-shadow: 10px 10px 5px rgba(116, 250, 205, 0.623);
+ position: relative;
+ animation-name: pfpenter;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+}
+
+#name {
+    font-size: xx-large;
+    margin-left: 20%;
+    padding-top: 4cm;
+    padding-left: 6cm;
+    position: relative;
+    animation-fill-mode: forwards;
+    Animation-name: nameentry ;
+ animation-duration: 2s;
+    
+}
+
+#designation {
+    margin-left: 12cm;
+    position: relative;
+    animation-fill-mode: forwards;
+    Animation-name: desigentry ;
+ animation-duration: 2s;
+ 
+   
+ 
+}
+#contact {
+    padding-top: 3cm;
+    margin-left: 5cm;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: x-large;
+    position: relative;
+    animation-name: conentry;
+    animation-fill-mode: unset;
+    animation-duration: 2s;
+
+}
+
+
+.cons {
+    padding-left: 9cm;
+    margin-right: 4cm;
+    font-style: italic;
+    font-family: monospace;
+    font-size: x-large;
+    position: relative;
+    animation-name: oldentry;
+    animation-duration: 2s;
+    animation-fill-mode:initial;
+    
+   
+}
+#pastworkk {
+    padding-top: 3cm;
+    margin-left: 5cm;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: x-large;
+    animation-name: conentry;
+    animation-duration: 2s;
+    animation-fill-mode: initial;
+    
+}
+.oldworks {
+    padding-left: 9cm;
+    padding-right: 4cm;
+    font-style: italic;
+    font-family: monospace;
+    font-size: x-large;
+    position: relative;
+    animation-name: oldentry;
+    animation-duration: 2s;
+    animation-fill-mode: initial;
+}
+
+
+
+
+
+@keyframes pfpenter {
+    from {
+        width: 0% ;
+
+    }
+    to {
+        width: 20%;
+    }
+}
+
+@keyframes nameentry {
+    from {
+        font-size: 0ch;
+
+    }
+    to {
+        font-size: x-large
+    }
+}
+@keyframes desigentry {
+    from {
+        font-size: 0in;
+
+    }
+    to {
+        font-size: large;
+    }
+}
+ @keyframes conentry {
+     0% {
+        margin-left: -9cm;
+     }
+  
+     100% {
+         margin-left: 5cm;
+     }
+
+
+ }
+ 
+@keyframes oldentry {
+    0% {
+        margin-left: -9cm;
+
+    }
+    100% {
+        margin-left: 0cm;
+    }
+}
